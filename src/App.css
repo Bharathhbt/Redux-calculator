@@ -1,0 +1,41 @@
+.calculator {
+  
+  position: fixed;
+  height: 150%;
+  width: 90%;
+  
+  min-width: 320px;
+  min-height: 568px;
+  max-width: 414px;
+  max-height: 600px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+.Buttons {
+  position: fixed;
+  width: 100%;
+  height: 80%;
+  left: 0;
+  top: 40%;
+  background-color: silver;
+  display: flex;
+  flex-flow: row wrap;
+   
+}
+
+.history {
+  position: absolute;
+  width: 98.2%;
+  height: 59.7%;
+  background-color:#fff;
+  opacity: 1;
+  
+  
+}
+
+.history.hidden {
+  
+  opacity: 0;
+}
