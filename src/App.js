@@ -3,7 +3,7 @@ import Buttons from './components/Buttons'
 
 import './App.css'
 import { connect } from 'react-redux';
-import Headers from './components/headers'
+import Headers from './components/Headers'
 class App extends React.Component{
 
     render(){

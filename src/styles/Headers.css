@@ -1,0 +1,9 @@
+.headerss{
+    flex: auto;
+    text-align: center;
+    color:#fff;
+    background-color: rgb(4, 61, 99);
+    margin: 0px;
+    height: 130px;
+    font-style: normal;
+}

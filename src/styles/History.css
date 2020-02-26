@@ -1,0 +1,50 @@
+.history-list {
+    height: 134%;
+    width:101.5%;
+    background-color: rgba(212, 241, 238, 0.973);
+  }
+  
+  .history-item {
+    text-align: right;
+    font-size: larger;
+  }
+  
+  .history-item hr {
+    color: #aaa;
+    size: 1px;
+  }
+  
+  .history-item-formula {
+    color: #888;
+    padding: 15px 15px 0 15px;
+  }
+  
+  .history-item-result {
+    color: #3da4ab;
+    padding: 0 15px;
+  }
+  
+  
+  
+  .bottom-btns {
+    position: relative;
+    left: 0;
+    bottom: 51px;
+    width: 100%;
+    
+  }
+  
+  .bottom-btns Button {
+    
+    font-size: 1.15rem;
+    font-weight: 700;
+    height: 100%;
+    width: 101.5%;
+    text-align: center;
+    background-color: #3da4ab;
+   position: relative;
+    
+    
+  }
+  
+ 

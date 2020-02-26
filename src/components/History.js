@@ -1,15 +1,12 @@
-import React,{Component} from 'react';
-import './History.css';
+import React from 'react';
+import '../styles/History.css';
 import { Button } from '@material-ui/core';
-import {onClearHistory} from '../actions/actionss';
+import {clearHistory} from '../actions/Actionss';
 import { connect } from 'react-redux';
 
 
 class History extends React.Component {
-  constructor(props) {
-    super(props);
-    this.historyList = React.createRef();
-  }
+  
 
   
 
@@ -19,13 +16,13 @@ class History extends React.Component {
     return (
       <div className={historyClassName}>
           
-        <div className="history-list" ref={this.historyList}>
+        <div className="history-list" >
           {
             this.props.history.map((item, index) => {
               return (
                 <div key={index} className="history-item">
                   
-              <div className="history-item-result" value={item.result} >{item.formula}{item.result}</div>
+              <div className="history-item-result"  >{item.formula}{item.result}</div>
               <hr/>
                 </div>
               )
@@ -33,7 +30,7 @@ class History extends React.Component {
           }
         </div>
         <div className="bottom-btns">
-          <Button id="clear-history" onClick={this.props.onClearHistory}>Clear</Button>
+          <Button id="clear-history" onClick={this.props.clearHistory}>Clear</Button>
           
         </div>
       </div>
@@ -48,7 +45,7 @@ const mapStateToProps = (state) => ({
 });
 
 const mapDispatchToProps = dispatch => ({
-    onClearHistory: () => dispatch(onClearHistory())
+    clearHistory: () => dispatch(clearHistory())
 
 });
 
