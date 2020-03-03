@@ -1,5 +1,4 @@
 
-
 const getButtons = ({allClear,clear,back,onEqual,buttonClicked}) => ([
     { title: 'AC', functionToCall: allClear},
     { title: 'C', functionToCall: clear},
@@ -8,12 +7,8 @@ const getButtons = ({allClear,clear,back,onEqual,buttonClicked}) => ([
         title,
         functionToCall: buttonClicked
     })
-
     ),
-   
     { title: '=', functionToCall: onEqual},
-    
-    
   ])
   export default getButtons;
 

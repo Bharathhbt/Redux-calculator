@@ -5,7 +5,7 @@ import imgs from '../assets/cl.jpeg';
 export default class Headers extends React.Component{
     render(){
         return(
-            <div className="headerss">
+            <div className="headers">
             <h1>React Calculator</h1>
             <img src={imgs} alt='' width="60" height="60" />
             </div>

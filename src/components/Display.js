@@ -12,15 +12,8 @@ class Display extends Component{
     }
 }
 
-
-
 const mapStateToProps = (state) => ({
     result: state.result,
-    history: state.history,
-    formula: state.formula,
-    isShowHistory: state.isShowHistory
-  
-
 })
 
 export default connect(

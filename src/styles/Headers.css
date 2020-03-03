@@ -1,4 +1,4 @@
-.headerss{
+.headers{
     flex: auto;
     text-align: center;
     color:#fff;
@@ -6,4 +6,5 @@
     margin: 0px;
     height: 130px;
     font-style: normal;
+   
 }
